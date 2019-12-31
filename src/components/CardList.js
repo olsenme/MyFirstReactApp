@@ -8,7 +8,7 @@ const CardList = ({ robots }) => {
 		 robots.map((user,i) => {
 			return( 
 				<Card 
-					key={i} 
+					key={robots[i].id} 
 					id={robots[i].id} 
 					name={robots[i].name} 
 					email={robots[i].email}
@@ -19,5 +19,4 @@ const CardList = ({ robots }) => {
 	</div>
 	); 
 }
-
 export default CardList; 
