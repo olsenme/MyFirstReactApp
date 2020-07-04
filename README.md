@@ -1,4 +1,4 @@
-Simple [Create React App](https://github.com/facebook/create-react-app). It utilizes basic concepts of redux such actions, reducers, and a store. 
+Simple [Create React App](https://github.com/facebook/create-react-app). It implements basic concepts of redux principals actions, reducers, and a store using react-redux, redux, and redux-thunk packages
 
 #Instructions
 1. git clone https://github.com/olsenme/MyFirstReactApp/edit/master/README.md
